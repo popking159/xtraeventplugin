@@ -41,6 +41,7 @@ sync
 echo ""
 echo ">>>>>>>>>     RESTARTING     <<<<<<<<<"
 echo ""
+rm -r /var/volatile/tmp/enigma2-plugin-extensions-xtraevent_6.4_all.ipk
 init 3
 echo "==================================================================="
 echo "===                          FINISHED                           ==="
