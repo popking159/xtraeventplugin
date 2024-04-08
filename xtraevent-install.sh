@@ -1,6 +1,7 @@
 #!/bin/sh
 ##setup command=wget -q "--no-check-certificate" https://github.com/popking159/xtraeventplugin/raw/main/xtraevent-install.sh -O - | /bin/sh
-
+echo "removing old xtraevent "
+opkg remove enigma2-xtraevent-6.4
 echo "downloading xtraevent..."
 wget -O  /var/volatile/tmp/xtraevent_v6.4_all.ipk https://raw.githubusercontent.com/popking159/xtraeventplugin/main/xtraevent_v6.4_all.ipk
 echo "Installing xtraevent..."
