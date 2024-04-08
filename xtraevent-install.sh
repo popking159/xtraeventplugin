@@ -3,9 +3,9 @@
 echo "removing old xtraevent "
 opkg remove enigma2-plugin-extensions-xtraevent
 echo "downloading xtraevent..."
-wget -O  /var/volatile/tmp/enigma2-plugin-extensions-xtraevent_6.4_all.ipk https://raw.githubusercontent.com/popking159/xtraeventplugin/main/enigma2-plugin-extensions-xtraevent_6.4_all.ipk
+wget -O  /var/volatile/tmp/xtraevent_6.4_all.ipk https://raw.githubusercontent.com/popking159/xtraeventplugin/main/enigma2-plugin-extensions-xtraevent_v6.4_all.ipk
 echo "Installing xtraevent..."
-opkg install /var/volatile/tmp/enigma2-plugin-extensions-xtraevent_6.4_all.ipk
+opkg install /var/volatile/tmp/xtraevent_6.4_all.ipk
 sleep 5
 sync
 echo "#########################################################"
