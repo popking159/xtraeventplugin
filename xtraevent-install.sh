@@ -1,7 +1,6 @@
 #!/bin/sh
 ##setup command=wget -q "--no-check-certificate" https://github.com/popking159/xtraeventplugin/raw/main/xtraevent-install.sh -O - | /bin/sh
 
-rm -r /usr/lib/enigma2/python/Plugins/Extensions/xtraEvent/
 echo "downloading xtraevent..."
 wget -O  /var/volatile/tmp/xtraeventcore.tar.gz https://github.com/popking159/xtraeventplugin/raw/main/xtraeventcore.tar.gz
 echo "Installing xtraevent..."
