@@ -1,6 +1,33 @@
 #!/bin/sh
 ##setup command=wget -q "--no-check-certificate" https://github.com/popking159/xtraeventplugin/raw/main/xtraevent-install.sh -O - | /bin/sh
-rm -r /usr/lib/enigma2/python/Plugins/Extensions/xtraEvent
+echo ''
+echo '************************************************************'
+echo "**                       STARTED                          **"
+echo '************************************************************'
+echo "**                  Uploaded by: MNASR                    **"
+echo "************************************************************"
+echo ''
+sleep 3s
+
+if [ -d /usr/lib/enigma2/python/Plugins/Extensions/xtraEvent ]; then
+echo "> removing package please wait..."
+sleep 3s 
+rm -rf /usr/lib/enigma2/python/Plugins/Extensions/xtraEvent > /dev/null 2>&1
+
+status='/var/lib/opkg/status'
+package='enigma2-plugin-extensions-xtraevent'
+
+if grep -q $package $status; then
+opkg remove $package > /dev/null 2>&1
+fi
+
+echo "*******************************************"
+echo "*             Removed Finished            *"
+echo "*             Uploaded By MNASR           *"
+echo "*******************************************"
+sleep 3s
+
+else
 echo "downloading xtraevent..."
 wget -O  /var/volatile/tmp/xtraeventcore.tar.gz https://github.com/popking159/xtraeventplugin/raw/main/xtraeventcore.tar.gz
 echo "Installing xtraevent..."
