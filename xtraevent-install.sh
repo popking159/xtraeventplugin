@@ -28,7 +28,6 @@ echo "*             Uploaded By MNASR           *"
 echo "*******************************************"
 sleep 3s
 
-else
 echo "downloading xtraevent..."
 wget -O  /var/volatile/tmp/xtraeventcore.tar.gz https://github.com/popking159/xtraeventplugin/raw/main/xtraeventcore.tar.gz
 echo "Installing xtraevent..."
