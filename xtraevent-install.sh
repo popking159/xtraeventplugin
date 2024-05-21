@@ -22,10 +22,6 @@ if grep -q $package $status; then
 opkg remove $package > /dev/null 2>&1
 fi
 
-echo "*******************************************"
-echo "*             Removed Finished            *"
-echo "*             Uploaded By MNASR           *"
-echo "*******************************************"
 sleep 3s
 
 echo "downloading xtraevent..."
