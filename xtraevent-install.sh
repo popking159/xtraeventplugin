@@ -2,7 +2,7 @@
 ##setup command=wget -q "--no-check-certificate" https://github.com/popking159/xtraeventplugin/raw/main/xtraevent-install.sh -O - | /bin/sh
 echo ''
 echo '************************************************************'
-echo "**                    STARTED  v6.806                     **"
+echo "**                    STARTED  v6.810                     **"
 echo '************************************************************'
 echo "**                  Uploaded by: MNASR                    **"
 echo "************************************************************"
