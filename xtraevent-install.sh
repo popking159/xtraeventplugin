@@ -43,6 +43,7 @@ sleep 3
 sed -i "/xtraEvent/d" $SETTINGS
 {
     echo "config.plugins.xtraEvent.apis=True"
+	echo "config.plugins.xtraEvent.castsFiles=True"
 	echo "config.plugins.xtraEvent.deletFiles=False"
 	echo "config.plugins.xtraEvent.extra3=True"
  	echo "config.plugins.xtraEvent.fanartAPI=6d231536dea4318a88cb2520ce89473b"
