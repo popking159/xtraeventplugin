@@ -1,2 +1,2 @@
-version = "v6.931"
+version = "v7.0"
 description='* add new features .\n* fix old functions .'
