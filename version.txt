@@ -1,2 +1,2 @@
-version = "v7.0"
-description='* add new features .\n* fix old functions .'
+version = "v7.1"
+description='* fix freeze with elcinema .\n* other small fixes .'
