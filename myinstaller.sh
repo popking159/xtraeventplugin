@@ -6,8 +6,8 @@
 # =========================================================================
 
 PLUGIN_NAME="MyHits"
-PKG_BASE="enigma2-plugin-extensions-myhits"
-VERSION="1.5.0"
+PKG_BASE="enigma2-plugin-extensions-xtraevent"
+VERSION="7.2"
 USERNAME="popking159"
 REPO="myhits"
 
