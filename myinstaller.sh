@@ -9,7 +9,7 @@ PLUGIN_NAME="xtraEvent"
 PKG_BASE="enigma2-plugin-extensions-xtraevent"
 VERSION="7.2"
 USERNAME="popking159"
-REPO="myhits"
+REPO="xtraEvent"
 
 # Terminal Colors
 RED='\033[0;31m'
