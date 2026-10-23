@@ -5,7 +5,7 @@
 # wget -qO - https://raw.githubusercontent.com/popking159/xtraeventplugin/refs/heads/main/myinstaller.sh | /bin/sh
 # =========================================================================
 
-PLUGIN_NAME="MyHits"
+PLUGIN_NAME="xtraEvent"
 PKG_BASE="enigma2-plugin-extensions-xtraevent"
 VERSION="7.2"
 USERNAME="popking159"
