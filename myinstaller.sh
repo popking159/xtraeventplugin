@@ -2,7 +2,7 @@
 
 # =========================================================================
 # One-liner execution command:
-# wget -qO - https://raw.githubusercontent.com/popking159/myhits/refs/heads/main/myinstaller.sh | /bin/sh
+# wget -qO - https://raw.githubusercontent.com/popking159/xtraeventplugin/refs/heads/main/myinstaller.sh | /bin/sh
 # =========================================================================
 
 PLUGIN_NAME="MyHits"
